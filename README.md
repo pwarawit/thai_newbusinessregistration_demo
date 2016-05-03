@@ -8,3 +8,8 @@ http://www.dbd.go.th/ewt_news.php?nid=12385&filename=index
 
 ### Directory Structure
 -- data_original : where we keep all the csv files downloaded from source
+
+สาธิตการวิเคราะห์ข้อมูล การจดทะเบียนธุรกิจใหม่
+ ## แหล่งข้อมูล
+ แหล่งข้อมูลของโครงการนี้ ได้มาจากหน่วยงานราชการ
+ 
