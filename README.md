@@ -36,5 +36,19 @@ in
 แล้วทำการสร้าง duplicate table ตั้งชื่อใหม่เป็น New Registrations
 
 TSIC 2552 เป็นรหัสธุรกิจ สามารถดาวน์โหลดได้จาก http://www.dbd.go.th/download/doc/table_TSIC2552.xls
-แต่ไฟล์นี้มีแต่ระดับ lowest level กับ mapping ขึ้นไปกับแต่ละระดับ จำเป็นต้องมี level 1-4 ต่างหากอีก
+แต่ไฟล์นี้มีแต่ระดับ lowest level กับ mapping ขึ้นไปกับแต่ละระดับ จำเป็นต้องมี level 1-4 ต่างหากอีก ไฟล์นี้ใช้งานไม่ได้ We can not use this file. 
+
+The working version of TSIC is from this link: https://goo.gl/yb20su (This is in Google Doc) I have downloaded into Excel.
+TSIC ปรับปรุงล่าสุดเมื่อแ 2552 
+	 ฉบับปรับปรุง ปีพ.ศ.2552	 ปีพ.ศ.2544
+	 21 	หมวดใหญ่	 แทนด้วยตัวอักษร 1 ตัว A-U	 17 หมวดใหญ่	 แทนด้วยตัวอักษร 1 ตัวA-Q
+	 88 	หมวดย่อย	 แทนด้วยเลขรหัสตัวที่1-2	 60 หมวดย่อย	 แทนด้วยเลขรหัสตัวที่1-2
+	 243 	หมู่ใหญ่	 แทนด้วยเลขรหัสตัวที่1-3	 159 หมู่ใหญ่	 แทนด้วยเลขรหัสตัวที่1-3
+	 441 	หมู่ย่อย	 แทนด้วยเลขรหัสตัวที่1-4	 295 หมู่ย่อย	 แทนด้วยเลขรหัสตัวที่1-4
+	1,091 	ตัวอุตสาหกรรม	 แทนด้วยเลขรหัสตัวที่1-5	 551 ตัวอุตสาหกรรม 	 แทนด้วยเลขรหัสตัวที่1-5
+	
+Table Name: TSIC
+Resulting table - Lvl1, Lvl2, Lvl3, Lvl4, Lvl5
+lvl table consist of 2 fields - id and desc	
+
  
